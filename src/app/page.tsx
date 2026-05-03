@@ -1,10 +1,15 @@
-// import ToggleTheme from "@/components/theme-toggle";
+import Landing from "@/components/landing";
+import Topics from "@/components/topics";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+
 export default function Home() {
   return (
-    <main className="w-full h-auto p-10 bg-bg">
-      <h1 className="font-sans">Hi! its Home</h1>
-      <h1 className="font-mono">You wanna join us!</h1>
-      {/* <ToggleTheme /> */}
-    </main>
+    <section className="w-full h-auto">
+      <Navbar />
+      <Landing />
+      <Topics />
+      <Footer />
+    </section>
   );
 }
