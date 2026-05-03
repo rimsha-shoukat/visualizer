@@ -13,7 +13,7 @@
 .dark {
   --bg: #0d0d10;
   --accent: #7c6ff7;
-  --text: #efefef;
+  --text: #f4f3f3;
   --muted: #888888;
 }
 
@@ -33,5 +33,5 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
