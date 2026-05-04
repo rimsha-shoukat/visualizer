@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <>
-      <nav className="flex flex-row items-center justify-between px-5 py-3 border-b border-muted/50">
+      <nav className="flex flex-row items-center justify-between px-6 py-4 border-b border-muted/20">
         <div className="flex flex-row items-center justify-center gap-2">
           <div className="w-2 h-2 bg-accent rounded-full"></div>
           <h1 className="text-[15px] font-semibold">Visualizer</h1>
