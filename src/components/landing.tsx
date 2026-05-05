@@ -2,7 +2,7 @@ export default function Landing() {
   return (
     <>
       <section className="flex flex-col items-center justify-center">
-        <main className="w-72 min-[450px]:w-106 my-16 flex flex-col items-center justify-center gap-4">
+        <main className="w-72 min-[450px]:w-106 my-14 flex flex-col items-center justify-center gap-4">
           <button className="flex flex-row items-center justify-center gap-1 text-accent bg-accent/10 border border-accent/40 rounded-full px-3 py-[0.15rem]">
             <div className="w-1.5 h-1.5 bg-accent rounded-full"></div>
             <p className="text-[12.5px]">AI-powered DSA learning</p>
@@ -17,10 +17,10 @@ export default function Landing() {
             finally click.
           </p>
           <div className="flex flex-row gap-3 text-[13px] mt-4">
-            <button className="px-6 py-2 rounded-full bg-accent">
+            <button className="px-6 py-2 rounded-full bg-accent cursor-pointer">
               Browse topics
             </button>
-            <button className="px-6 py-2 rounded-full border border-muted/50">
+            <button className="px-6 py-2 rounded-full border border-muted/50 cursor-pointer">
               How it works
             </button>
           </div>
