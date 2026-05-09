@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Landing() {
   return (
     <>
@@ -17,9 +19,12 @@ export default function Landing() {
             finally click.
           </p>
           <div className="flex flex-row gap-3 text-[13px] mt-4">
-            <button className="px-6 py-2 rounded-full bg-accent cursor-pointer">
+            <Link
+              href="/topics"
+              className="px-6 py-2 rounded-full bg-accent cursor-pointer"
+            >
               Browse topics
-            </button>
+            </Link>
             <button className="px-6 py-2 rounded-full border border-muted/50 cursor-pointer">
               How it works
             </button>

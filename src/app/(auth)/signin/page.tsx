@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Signin() {
   return (
     <>
@@ -6,7 +8,9 @@ export default function Signin() {
           <div className="w-2 h-2 bg-accent rounded-full"></div>
           <h1 className="text-[15px] font-semibold">Visualizer</h1>
         </div>
-        <div className="text-[12px] text-muted">← Back to home</div>
+        <Link href="/" className="text-[12px] text-muted">
+          ← Back to home
+        </Link>
       </nav>
       <section className="flex flex-col items-center justify-center gap-4 my-10">
         <main className="flex flex-col items-center justify-center gap-3 border border-muted/15 bg-muted/6 rounded-lg p-4 min-[385px]:p-10">

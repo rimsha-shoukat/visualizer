@@ -1,12 +1,17 @@
+import Link from "next/link";
+
 export default function Topics() {
   return (
     <>
       <section className="w-full h-auto">
         <div className="flex flex-row items-center justify-between mb-4">
           <h5 className="text-[15px]">Popular topics</h5>
-          <button className="text-[13.5px] text-accent cursor-pointer">
+          <Link
+            href="/topics"
+            className="text-[13.5px] text-accent cursor-pointer"
+          >
             See all →
-          </button>
+          </Link>
         </div>
         <section className="grid grid-cols-1 min-[482px]:grid-cols-2 gap-3">
           <div className="bg-muted/8 border border-muted/30 rounded-xl hover:border-accent flex flex-col items-start justify-between gap-3 p-4 cursor-pointer">
