@@ -17,7 +17,7 @@ export default function Profile() {
           Topics
         </Link>
       </nav>
-      <section className="p-6 flex flex-col gap-4 items-start justify-start">
+      <section className="w-full p-6 flex flex-col gap-4 items-start justify-start">
         <div className="w-full flex flex-row items-center justify-between gap-4">
           <div className="flex flex-row items-center justify-center gap-4">
             <div className="max-[470px]:hidden border-2 border-accent rounded-full w-16 h-16 bg-accent/10 text-[20px] text-accent flex items-center justify-center shrink-0">
