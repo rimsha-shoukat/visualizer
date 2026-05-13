@@ -14,10 +14,6 @@ export default function Progress() {
           <h1 className="text-orange-400 text-[20px]">82%</h1>
           <p className="text-muted text-[13px]">Quiz avg.</p>
         </div>
-        <div className="text-center py-3 w-full min-[465px]:flex-1 flex-nowrap bg-muted/10 border border-muted/20 rounded-lg">
-          <h1 className="text-blue-500 text-[20px]">14</h1>
-          <p className="text-muted text-[13px]">Day streak</p>
-        </div>
       </section>
       <p className="text-muted text-[13px] mt-2">Topic progress</p>
       <section className="flex flex-col items-center justify-center w-full gap-3">
