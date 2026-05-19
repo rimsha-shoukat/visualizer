@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TopicsList from "./topicsList";
 
 export default function Topics() {
   return (
@@ -15,9 +16,9 @@ export default function Topics() {
           Sign in
         </Link>
       </nav>
-      <section className="w-full h-auto px-6 py-4 flex flex-col items-center justify-center gap-4">
+      <section className="w-full h-auto px-6 py-4 flex flex-col gap-4">
         <div className="w-full flex flex-row gap-2 bg-muted/8 items-center justify-center border border-muted/30 rounded-xl px-2 py-1.5">
-          <p className="text-[13px]">🔍</p>
+          <p className="text-[13px]">🔎</p>
           <input
             className="w-full placeholder-muted/70 placeholder:text-[14px] focus:outline-none"
             type="text"
@@ -44,6 +45,7 @@ export default function Topics() {
             Advanced
           </button>
         </div>
+        <TopicsList />
       </section>
     </>
   );
